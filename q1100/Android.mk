@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),armani)
+ifeq ($(TARGET_DEVICE),q1100)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := TimeService
