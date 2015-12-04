@@ -595,8 +595,8 @@ PRODUCT_COPY_FILES += \
 	vendor/xolo/q1100/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
 	vendor/xolo/q1100/proprietary/lib/libminui.so:system/lib/libminui.so \
 	vendor/xolo/q1100/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
-	vendor/xolo/q1100/proprietary/lib/proprietary/bin/fmconfig:system/bin/fmconfig \
-	vendor/xolo/q1100/proprietary/lib/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches
+	vendor/xolo/q1100/proprietary/bin/fmconfig:system/bin/fmconfig \
+	vendor/xolo/q1100/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches
 
 #Not Sure Stuff
 #vendor/xolo/q1100/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so 
