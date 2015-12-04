@@ -589,7 +589,7 @@ PRODUCT_COPY_FILES += \
 	vendor/xolo/q1100/proprietary/vendor/lib/mmi_vibrator.so:system/vendor/lib/mmi_vibrator.so \
 	vendor/xolo/q1100/proprietary/vendor/lib/mmi_volume.so:system/vendor/lib/mmi_volume.so \
 	vendor/xolo/q1100/proprietary/vendor/lib/mmi_wifi.so:system/vendor/lib/mmi_wifi.so \
-	vendor/xolo/q1100/proprietary/vendor/lib/libloc_core.so:system/lib/libloc_core.so \
+	vendor/xolo/q1100/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
 	vendor/xolo/q1100/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
 	vendor/xolo/q1100/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
 	vendor/xolo/q1100/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
