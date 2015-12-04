@@ -295,7 +295,6 @@ PRODUCT_COPY_FILES += \
 	vendor/xolo/q1100/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
 	vendor/xolo/q1100/proprietary/vendor/lib/drm/libdrmprplugin.so:system/vendor/lib/drm/libdrmprplugin.so \
 	vendor/xolo/q1100/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
-	#vendor/xolo/q1100/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
 	vendor/xolo/q1100/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
 	vendor/xolo/q1100/proprietary/vendor/lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so \
 	vendor/xolo/q1100/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
@@ -322,7 +321,6 @@ PRODUCT_COPY_FILES += \
 	vendor/xolo/q1100/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
 	vendor/xolo/q1100/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
 	vendor/xolo/q1100/proprietary/lib/libnl_2.so:system/lib/libnl_2.so \
-	#vendor/xolo/q1100/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
 	vendor/xolo/q1100/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
 	vendor/xolo/q1100/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
 	vendor/xolo/q1100/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
@@ -332,8 +330,7 @@ PRODUCT_COPY_FILES += \
 	vendor/xolo/q1100/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
 	vendor/xolo/q1100/proprietary/vendor/lib/libquipc_ulp_adapter.so:system/vendor/lib/libquipc_ulp_adapter.so \
 	vendor/xolo/q1100/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
-	#vendor/xolo/q1100/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
-	#vendor/xolo/q1100/proprietary/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so \
+
 	vendor/xolo/q1100/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
 	vendor/xolo/q1100/proprietary/vendor/lib/libxtwifi_zpp_adaptor.so:system/vendor/lib/libxtwifi_zpp_adaptor.so
 
@@ -379,7 +376,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
 	vendor/xolo/q1100/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
 	vendor/xolo/q1100/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
-	#vendor/xolo/q1100/proprietary/vendor/lib/libHevcSwDecoder.so:system/vendor/lib/libHevcSwDecoder.so \
+
 	vendor/xolo/q1100/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
 	vendor/xolo/q1100/proprietary/vendor/lib/libmmparser.so:system/vendor/lib/libmmparser.so \
 	vendor/xolo/q1100/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
@@ -399,7 +396,6 @@ PRODUCT_COPY_FILES += \
 	vendor/xolo/q1100/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
 	vendor/xolo/q1100/proprietary/vendor/lib/lib-imsqimf.so:system/vendor/lib/lib-imsqimf.so \
 	vendor/xolo/q1100/proprietary/vendor/lib/lib-imsrcs.so:system/vendor/lib/lib-imsrcs.so \
-	#vendor/xolo/q1100/proprietary/vendor/lib/lib-imss.so:system/vendor/lib/lib-imss.so \
 	vendor/xolo/q1100/proprietary/vendor/lib/lib-imsSDP.so:system/vendor/lib/lib-imsSDP.so \
 	vendor/xolo/q1100/proprietary/vendor/lib/lib-imsvt.so:system/vendor/lib/lib-imsvt.so \
 	vendor/xolo/q1100/proprietary/vendor/lib/lib-imsxml.so:system/vendor/lib/lib-imsxml.so \
@@ -601,7 +597,15 @@ PRODUCT_COPY_FILES += \
 	vendor/xolo/q1100/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
 	vendor/xolo/q1100/proprietary/lib/libminui.so:system/lib/libminui.so \
 	vendor/xolo/q1100/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
-	#vendor/xolo/q1100/proprietary/lib/libpng.so:system/lib/libpng.so \
-	#vendor/xolo/q1100/proprietary/lib/libmemalloc.so:system/lib/libmemalloc.so \
 	vendor/xolo/q1100/proprietary/lib/proprietary/bin/fmconfig:system/bin/fmconfig \
 	vendor/xolo/q1100/proprietary/lib/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches
+
+#Not Sure Stuff
+#vendor/xolo/q1100/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so 
+#vendor/xolo/q1100/proprietary/lib/libpng.so:system/lib/libpng.so 
+#vendor/xolo/q1100/proprietary/lib/libmemalloc.so:system/lib/libmemalloc.so
+#vendor/xolo/q1100/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so 
+#vendor/xolo/q1100/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so 
+#vendor/xolo/q1100/proprietary/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so 
+#vendor/xolo/q1100/proprietary/vendor/lib/libHevcSwDecoder.so:system/vendor/lib/libHevcSwDecoder.so 
+#vendor/xolo/q1100/proprietary/vendor/lib/lib-imss.so:system/vendor/lib/lib-imss.so 
