@@ -16,9 +16,9 @@
 
 # Prebuilt APKs
 PRODUCT_PACKAGES += \
-    com.qualcomm.location \
-    com.qualcomm.services.location \
-    TimeService
+	TimeService \
+	qcrilmsgtunnel \
+    com.qualcomm.location
 
 # Prebuilt vendor/libs needed for compilation
 PRODUCT_PACKAGES += \
